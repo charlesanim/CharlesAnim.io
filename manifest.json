@@ -1,0 +1,21 @@
+{
+  "name": "Charles Anim - Full Stack Software Developer",
+  "short_name": "Charles Anim",
+  "description": "A personal website to showcase my work",
+  "lang": "en-US",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#fe7448",
+  "icons": [
+    {
+      "src": "images/favicon.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "images/favicon-2x.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ]
+}

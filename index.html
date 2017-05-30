@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Charles Anim - Full Stack Software Developer</title>
+  <meta name="description" content="">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="Charles Anim">
+  <meta name="apple-mobile-web-app-title" content="Charles Anim">
+  <meta name="theme-color" content="#fe7448">
+  <meta name="msapplication-navbutton-color" content="#fe7448">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="msapplication-starturl" content="/index.html">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" >
+
+
+  <!-- Manifest file-->
+  <link rel="manifest" href="manifest.json">
+
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/font/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/libs/materialize/css/materialize.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/css/bootstrap.css" media="screen,projection" />
+
+  <link rel="stylesheet" href="assets/css/animate.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/libs/sweetalert/sweet-alert.css" media="screen,projection" />
+
+  <link rel="stylesheet" href="assets/libs/owl-carousel/owl.carousel.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/libs/owl-carousel/owl.transitions.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/libs/owl-carousel/owl.theme.css" media="screen,projection" />
+
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/hover-min.css">
+  <link rel="stylesheet" type="text/css" href="http://csshake.surge.sh/csshake-slow.min.css">
+  <!-- Manifest links -->
+  <link rel="icon" type="image/png" sizes="64x64" href="images/favicon.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="64x64" href="images/favicon.png">
+  <link rel="icon" type="image/png" sizes="128x128" href="images/favicon-2x.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="128x128" href="images/favicon-2x.png">
+  <!-- Choose your default colors -->
+  <link rel="stylesheet" href="assets/css/colors/color5.css">
+  <!-- <link rel="stylesheet" href="assets/css/colors/color2.css"> -->
+  <!-- <link rel="stylesheet" href="assets/css/colors/color3.css"> -->
+  <!-- <link rel="stylesheet" href="assets/css/colors/color4.css"> -->
+  <!-- <link rel="stylesheet" href="assets/css/colors/color5.css"> -->
+  <!-- <link rel="stylesheet" href="assets/css/colors/color6.css"> -->
+  <!-- <link rel="stylesheet" href="assets/css/colors/color7.css"> -->
+  <!-- <link rel="stylesheet" href="assets/css/colors/color8.css"> -->
+  
+  <!-- Manifest links --!>
+  <link rel="icon" type="image/png" sizes="64x64" href="images/favicon.png">
+<link rel="apple-touch-icon" type="image/png" sizes="64x64" href="images/favicon.png">
+<link rel="icon" type="image/png" sizes="128x128" href="images/favicon-2x.png">
+<link rel="apple-touch-icon" type="image/png" sizes="128x128" href="images/favicon-2x.png">
+
+  <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+  <!-- Preloader --> 
+    <div id="preloader">
+      <div class="loader">
+            <svg class="circle-loader" height="50" width="50">
+              <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="6" stroke-miterlimit="10" />
+            </svg>
+        </div>    
+    </div><!--preloader end-->
+
+  <!-- Main Container -->
+  <main id="app" class="main-section">
+    <!-- header navigation start -->
+    <header id="navigation" class="root-sec white nav">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="nav-inner">
+              <nav class="primary-nav">
+                <div class="clearfix nav-wrapper">
+                  <a href="#home" class="left brand-logo menu-smooth-scroll" data-section="#home"><img src="images/logo1.png" alt="">
+                  </a>
+                  <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                  <ul class="right static-menu">
+                    <li class="search-form-li">
+                      <a id="initSearchIcon" class=""><i class="mdi-action-search"></i> </a>
+                      <div class="search-form-wrap hide">
+                        <form action="#" class="">
+                          <input type="search" class="search">
+                          <button type="submit"><i class="mdi-action-search"></i>
+                          </button>
+                        </form>
+                      </div>
+                    </li>
+                    <li>
+                      <a class="dropdown-button blog-submenu-init" href="#!" data-activates="dropdown1">
+                        <i class="mdi-navigation-more-vert right"></i>
+                      </a>
+                    </li>
+                  </ul>
+                  <ul class="inline-menu side-nav" id="mobile-demo">
+
+                  <!-- Mini Profile // only visible in Tab and Mobile -->
+                    <li class="mobile-profile">
+                     <div class="profile-inner">
+                        <div class="pp-container">
+                            <img src="images/person.png" alt="">
+                        </div>
+                        <h3>Charles Anim</h3>
+                        <h5>Full Stack Software Developer/Freelancer</h5>
+                      </div>
+                    </li><!-- mini profile end-->
+
+
+                    <li><a href="#about" data-section="#about" class="menu-smooth-scroll"><i class="fa fa-user fa-fw"></i>About Me</a>
+                    </li>
+                    <li><a href="#resume" data-section="#resume" class="menu-smooth-scroll"><i class="fa fa-file-text fa-fw"></i>Resume</a>
+                    </li>
+                    <li><a href="#portfolio" data-section="#portfolio" class="menu-smooth-scroll"><i class="fa fa-briefcase fa-fw"></i>Portfolio</a>
+                    </li>
+                    <li><a href="#testimonial" data-section="#testimonial" class="menu-smooth-scroll"><i class="fa fa-comments fa-fw"></i>Testimonial</a>
+                    </li>
+                    <li><a href="#contact" data-section="#contact" class="menu-smooth-scroll"><i class="fa fa-paper-plane fa-fw"></i>Contact</a>
+                    </li>
+                  </ul>
+                  <ul id="dropdown1" class="inline-menu submenu-ul dropdown-content">
+                    <li>Home</li
+                  </ul>
+
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- .container end -->
+    </header>
+    <!-- #header  navigation end -->
+
+    <!-- Home Section start -->
+    <section id="home" class="scroll-section root-sec grey lighten-5 home-wrap">
+      <div class="sec-overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="home-inner">
+                  <div class="center-align home-content">
+                    <h1 class="home-title">HI! I'm <span>Charles Anim</span></h1>
+                    <h2 class="home-subtitle">Full Stack Software Developer/Freelancer from East Hartford, Connecticut</h2>
+                    <a href="#contact" class="hire-me-btn btn waves-effect waves-light btn-large brand-bg white-text regular-text shake-slow shake-constant shake-constant--hover">Hire Me <i class="mdi-content-send left"></i>
+                    </a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- .container end -->
+        <div class="section-call-to-area">
+          <div class="container">
+            <div class="row">
+              <a href="#about" class="btn-floating btn-large button-middle call-to-about section-call-to-btn animated btn-up btn-hidden" data-section="#about">
+                <i class="mdi-navigation-expand-more"></i>
+              </a>
+            </div>
+          </div>
+          <!-- .container end -->
+        </div>
+      </div>
+    </section>
+    <!-- #home Section end -->
+
+    <!-- About Section start -->
+    <section id="about" class="scroll-section root-sec padd-tb-60 grey lighten-5 about-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="clearfix about-inner">
+
+            <div class="col-sm-12 col-md-4">
+              <div class="person-about">
+                <h3 class="about-subtitle">My Story</h3>
+                <p>I am a full stack software engineer/freelancer who understands products are meant to add business value. <br />
+                I excel at creative problem solving, working in teams, and quickly understanding new concepts and also have a passion for clean and robust code!</p>
+                <a href="#" class="waves-effect hvr-pop waves-light btn-large brand-bg white-text "><i class="mdi-content-archive left "></i> Download Resume</a>
+              </div>
+            </div>
+            <!-- about me description -->
+
+            <div class="col-sm-6 col-md-4">
+              <div class="person-img wow fadeIn">
+                <img class="z-depth-1" src="images/person.png" alt="">
+              </div>
+            </div>
+            <!-- about me image -->
+
+            <div class="col-sm-6 col-md-4">
+              <div class="person-info">
+                <h3 class="about-subtitle">Personal Information</h3>
+                <h5><span>Name :</span> Charles Anim</h5>
+                <h5><span>D.O.B :</span> 26 June</h5>
+                <h5><span>Phone :</span> +1 (860)518-0872</h5>
+                <h5><span>Email :</span> charlesnapster65@gmail.com</h5>
+                <h5><span>Address :</span> East Hartford/Bristol, CT</h5>
+              </div>
+
+              <div class="about-social">
+                <ul>
+                  <li>
+                    <a href="https://facebook.com/napster499" class="btn-floating waves-effect waves-light white"><i class="fa fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="https://linkedin.com/in/charlesanim" class="btn-floating waves-effect waves-light white"><i class="fa fa-linkedin"></i></a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/charlesanim" class="btn-floating waves-effect waves-light white"><i class="fa fa-github"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- about me info -->
+
+          </div>
+        </div>
+      </div>
+      <!-- .container end -->
+    </section>
+    <!-- #about Section end -->
+
+    <!-- Resume Section start -->
+    <section id="resume" class="scroll-section ">
+      <section id="skill" class="root-sec white skill-wrap">
+      <div class="sec-overlay">
+        <div class="container">
+          <div class="row">
+            <div class="clearfix skill-inner">
+              <div class="col-sm-12 col-md-3">
+                <div class="skill-left">
+                  <h2 class="title">Skills</h2>
+                  <p class="regular-text">Man behind the gun, any sophisticated weapons.</p>
+                </div>
+              </div>
+
+              <!-- skills container -->
+              <div class="col-sm-12 col-md-6 col-md-offset-1">
+                <div class="skill-right">
+                  <div id="skillSlider" class="clearfix skill-graph">
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="100%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">Java</span>
+                              <div class="hr-wrap">
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">80%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="80%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">JavaScript</span>
+                              <div class="hr-wrap">
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">60%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="85%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">Python</span>
+                              <div class="hr-wrap">
+
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">85%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="95%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">HTML5</span>
+                              <div class="hr-wrap">
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">95%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="60%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">Bootstrap</span>
+                              <div class="hr-wrap">
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">60%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="95%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">CSS3</span>
+                              <div class="hr-wrap">
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">95%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="85%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">Sketch App</span>
+                              <div class="hr-wrap">
+
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">85%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="70%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">ReactJS</span>
+                              <div class="hr-wrap">
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">70%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="75%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">AngularJS</span>
+                              <div class="hr-wrap">
+
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">75%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="80%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">Git</span>
+                              <div class="hr-wrap">
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">80%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                  </div>
+                </div>
+              </div>
+              <!-- /skills container -->
+            </div>
+          </div>
+          <div class="btn-wrapp skl-ctrl">
+            <a class="btn-floating hvr-backward waves-effect waves-light btn-large brand-bg white-text go go-left"><i class="mdi-navigation-chevron-left "></i></a>
+            <a class="btn-floating hvr-forward waves-effect waves-light btn-large brand-bg white-text go go-right"><i class="mdi-navigation-chevron-right "></i></a>
+          </div>
+        </div>
+      </div>
+        <!-- .container end -->
+      </section>
+
+      <section id="experience" class="root-sec padd-tb-120 brand-bg experience-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="experience-inner">
+              <div class="col-sm-12 col-md-10 card-box-wrap">
+                <div class="row">
+                  <div class="clearfix section-head experience-text">
+                    <div class="col-sm-12">
+                      <h2 class="title">Experience</h2>
+                      <p class="regular-text">"Practice does not make perfect. Only perfect practice makes perfect" <br/> - Vince Lombardi</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="overflow-hidden">
+                      <div class="row">
+                        <div id="experienceSlider" class="clearfix card-element-wrapper">
+                          <div class="col-sm-4 cold-xs-12 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <h2 class="left-align card-title-top">May 2017</h2>
+                                <div class="valign-wrapper card-img-wrap">
+                                  <img class="activator" src="images/meetup-shot1.png" alt="MeetUP!">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">Front End Engineer<i class="mdi-navigation-more-vert right"></i></span>
+                                <p>MeetUP - One-Page Responsive Bootstrap Project</p>
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">Front End Engineer<i class="mdi-navigation-close right"></i></span>
+                                  <p>MeetUP - One-Page Responsive Bootstrap Project</p>
+                                </div>
+                                <p class="rev-content">
+                                  A one-page responsive bootstrap template.
+                                  , Meetup is elegantly designed and coded with one of the best front-end frameworks, Bootstrap. <br />
+                                  UI/UX experience design was made a priority on this project.
+                                  <a href="https://charlesanim.github.io/MeetUp/" class="waves-effect waves-light btn-large brand-bg white-text"><i class="mdi-content-archive left"></i>Link to project!</a>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 cold-xs-12 single-card-box wow fadeInUpSmall" data-wow-delay=".2s" data-wow-duration=".7s">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <h2 class="left-align card-title-top">Nov 2015</h2>
+                                <div class="valign-wrapper card-img-wrap">
+                                  <img class="activator" src="http://placehold.it/400x300" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">Javascript Developer<i class="mdi-navigation-more-vert right"></i></span>
+                                <p>Classic Arcade game Clone</p>
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">Javascript Developer<i class="mdi-navigation-close right"></i></span>
+                                  <p>Classic Arcade game Clone</p>
+                                </div>
+                                <p class="rev-content">
+                                   • Classic arcade frogger game built with custom game engines and resources <br/>
+								                   • Wrote code for player, enemy and other entities in JavaScript <br/>
+								                   • Implemented engine.js to support the entities on the game board
+
+								                  <a href="http://charlesanim.github.io/frontend-nanodegree-arcade-game-napster/" class="waves-effect waves-light btn-large brand-bg white-text"><i class="mdi-content-archive left"></i>Link to project!</a>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 cold-xs-12 single-card-box wow fadeInUpSmall" data-wow-delay=".4s" data-wow-duration=".7s">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <h2 class="left-align card-title-top">Sep 2015</h2>
+                                <div class="valign-wrapper card-img-wrap">
+                                  <img class="activator" src="images/about-me.png" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">Web Developer<i class="mdi-navigation-more-vert right"></i></span>
+                                <p>About Me Page</p>
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">Web Developer<i class="mdi-navigation-close right"></i></span>
+                                  <p>About Me Page</p>
+                                </div>
+                                <p class="rev-content">
+                                  • Designed a simple about me page to highlight my interests
+                                  • Wrote Html and CSS to present and style webpage. 
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 cold-xs-12 single-card-box">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <h2 class="left-align card-title-top">January 2014 - Present</h2>
+                                <div class="valign-wrapper card-img-wrap">
+                                  <img class="activator" src="http://placehold.it/400x300" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">UX/UI Designer<i class="mdi-navigation-more-vert right"></i></span>
+                                <p>Windows Phone</p>
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">UX/UI Designer<i class="mdi-navigation-close right"></i></span>
+                                  <p>Windows Phone</p>
+                                </div>
+                                <p class="rev-content">
+                                  Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 cold-xs-12 single-card-box">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <h2 class="left-align card-title-top">January 2014 - Present</h2>
+                                <div class="valign-wrapper card-img-wrap">
+                                  <img class="activator" src="http://placehold.it/400x300" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">UX/UI Designer<i class="mdi-navigation-more-vert right"></i></span>
+                                <p>Windows Phone</p>
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">UX/UI Designer<i class="mdi-navigation-close right"></i></span>
+                                  <p>Windows Phone</p>
+                                </div>
+                                <p class="rev-content">
+                                  Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="btn-wrapp exp-ctrl">
+                <a class="btn-floating hvr-backward waves-effect waves-light btn-large white go go-left"><i class="mdi-navigation-chevron-left brand-text"></i></a>
+                <a class="btn-floating hvr-forward waves-effect waves-light btn-large white go go-right"><i class="mdi-navigation-chevron-right brand-text"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="root-sec grey lighten-5 padd-tb-120 education-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="education-inner">
+              <div class="col-sm-12 col-md-10 card-box-wrap">
+                <div class="row">
+                  <div class="clearfix section-head education-text">
+                    <div class="col-sm-12">
+                      <h2 class="title">education and certifications</h2>
+                      <p class="regular-text">"I have no special talent. I am only passionately curious." <br/> - Albert Einstein.</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="overflow-hidden">
+                      <div class="row">
+                        <div id="educationSlider" class="clearfix card-element-wrapper">
+
+                        <!-- single education -->
+                          <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <h2 class="left-align card-title-top">2015 - 2016</h2>
+                                <div class="card-img-wrap">
+                                  <img class="activator" src="images/udacity1.png" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">Front End Web Developer<i class="mdi-navigation-more-vert right"></i></span>
+                                <p>Udacity</p>
+                              </div>
+                              <!-- Reveal content-->
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">Front End Web Developer Nanodegree<i class="mdi-navigation-close right"></i></span>
+                                  <p>Udacity</p>
+                                </div>
+                                <p class="rev-content">
+                                  Completed and earned a certificate for the Front End Web Developer Nanodegree track created by <a href="https://udacity.com">Udacity</a> <br/> and <a href="https://google.com">Google</a> <br/> <a href="https://drive.google.com/open?id=0B0lYiP5GTxrtZ2w0TGM1aWlVVWs" class="waves-effect hvr-grow waves-light btn-large brand-bg white-text "><i class="mdi-content-archive left "></i> View Certificate</a>
+                                </p>
+                              </div>
+                            </div>
+                          </div> <!-- single education end -->
+
+                          <!-- single education -->
+                          <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-delay=".2s" data-wow-duration=".7s">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <h2 class="left-align card-title-top">Dec 2016</h2>
+                                <div class="card-img-wrap">
+                                  <img class="activator" src="images/sololearn.png" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">Javascript Certificate<i class="mdi-navigation-more-vert right"></i></span>
+                                <p>Sololearn</p>
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">Javascript Certificate<i class="mdi-navigation-close right"></i></span>
+                                  <p>Sololearn</p>
+                                </div>
+                                <p class="rev-content">
+                                  Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. <br/> <a href="https://drive.google.com/open?id=0B0lYiP5GTxrtbGNka1hMS214M0U" class="waves-effect hvr-grow waves-light btn-large brand-bg white-text "><i class="mdi-content-archive left "></i> View Certificate</a>
+                                </p>
+                              </div>
+                            </div>
+                          </div> <!-- single education -->
+
+                        <!-- single education -->
+                          <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-delay=".4s" data-wow-duration=".7s">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <h2 class="left-align card-title-top">2013 - 2017</h2>
+                                <div class="card-img-wrap">
+                                  <img class="activator" src="images/asu.png" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">BS. Computer Systems Engineering<i class="mdi-navigation-more-vert right"></i></span>
+                                <p>Arizona State University</p>
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">BS. Computer Systems Engineering<i class="mdi-navigation-close right"></i></span>
+                                  <p>Arizona State University, AZ</p>
+                                </div>
+                                <p class="rev-content">
+                                  Pursued a Bachelor's degree in Computer Systems Engineering at Arizona State University, Tempe, AZ. G.P.A 3.7 (Dropped out)
+                                </p>
+                              </div>
+                            </div>
+                          </div> <!-- single education -->
+                          
+                          <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-delay=".6s" data-wow-duration=".7s">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <h2 class="left-align card-title-top">2008 - 2012</h2>
+                                <div class="card-img-wrap">
+                                  <img class="activator" src="images/umat.png" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">BS. Computer Science<i class="mdi-navigation-more-vert right"></i></span>
+                                <p>University of Mines & Technology</p>
+                              </div>
+                              <!-- Reveal content-->
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">BS. Computer Science<i class="mdi-navigation-close right"></i></span>
+                                  <p>University of Mines & Technology, Ghana</p>
+                                </div>
+                                <p class="rev-content">
+                                  Pursued and completed a bachelor's degree in Computer Science<br/> <a href="https://drive.google.com/open?id=0B0lYiP5GTxrtX0hXWUlZdHgwbmc" class="waves-effect hvr-grow waves-light btn-large brand-bg white-text "><i class="mdi-content-archive left "></i> View Degree</a>
+                                </p>
+                              </div>
+                            </div>
+                          </div> <!-- single education end -->
+
+
+                        <!-- single education -->
+                          <div class="col-sm-4 single-card-box">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <h2 class="left-align card-title-top">Dec 2016</h2>
+                                <div class="card-img-wrap">
+                                  <img class="activator" src="images/sololearn.png" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">PHP Certificate<i class="mdi-navigation-more-vert right"></i></span>
+                                <p>Sololearn</p>
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">PHP Certificate<i class="mdi-navigation-close right"></i></span>
+                                  <p>Sololearn</p>
+                                </div>
+                                <p class="rev-content">
+                                  Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. <br/> <a href="https://drive.google.com/open?id=0B0lYiP5GTxrtZHlRTzZibjBETUU" class="waves-effect hvr-grow waves-light btn-large brand-bg white-text "><i class="mdi-content-archive left "></i> View Certificate</a>
+                                </p>
+                              </div>
+                            </div>
+                          </div> <!-- single education -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="btn-wrapp edu-ctrl">
+                <a class="btn-floating hvr-backward waves-effect waves-light btn-large brand-bg go go-left"><i class="mdi-navigation-chevron-left"></i></a>
+                <a class="btn-floating hvr-forward waves-effect waves-light btn-large brand-bg go go-right"><i class="mdi-navigation-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- #resume Section end -->
+
+    <!-- Testimonial Section end -->
+    <section id="testimonial" class="scroll-section root-sec brand-bg padd-tb-120 testimonial-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="testimonial-inner">
+            <div class="col-sm-12 col-md-10 card-box-wrap">
+              <div class="row">
+                <div class="clearfix section-head testimonial-text">
+                  <div class="col-sm-12">
+                    <h2 class="title">testimonial</h2>
+                    <p class="regular-text">Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.</p>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="overflow-hidden">
+                    <div class="row">
+                      <div id="testimonialSlider" class="clearfix card-element-wrapper">
+                        <div class="col-sm-6 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/avatar.png" alt="">
+                                <p class="saying-about">Amazing theme, amazing code and especially amazing support! I Really love your work.</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator brand-text">Jonh Smith -</span>
+                              <a href="#">CEO, Apple Inc</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        <div class="col-sm-6 single-card-box wow fadeInUpSmall" data-wow-delay=".2s" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/avatar.png" alt="">
+                                <p class="saying-about">Amazing theme, amazing code and especially amazing support! I Really love your work.</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator brand-text">Jonh Smith -</span>
+                              <a href="#">CEO, Apple Inc</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        <div class="col-sm-6 single-card-box">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/avatar.png" alt="">
+                                <p class="saying-about">Amazing theme, amazing code and especially amazing support ! I Really love your work.</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator brand-text">Jonh Smith -</span>
+                              <a href="#">CEO, Apple Inc</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        <div class="col-sm-6 single-card-box">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/avatar.png" alt="">
+                                <p class="saying-about">Amazing theme, amazing code and especially amazing support ! I Really love your work.</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator brand-text">Jonh Smith -</span>
+                              <a href="#">CEO, Apple Inc</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        <div class="col-sm-6 single-card-box">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/avatar.png" alt="">
+                                <p class="saying-about">Amazing theme, amazing code and especially amazing support ! I Really love your work.</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator brand-text">Jonh Smith -</span>
+                              <a href="#">CEO, Apple Inc</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                      </div> <!-- #testimonialSlider end -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="btn-wrapp tmo-ctrl">
+              <a class="btn-floating hvr-backward waves-effect waves-light btn-large white go go-left"><i class="mdi-navigation-chevron-left brand-text"></i></a>
+              <a class="btn-floating hvr-forward waves-effect waves-light btn-large white go go-right"><i class="mdi-navigation-chevron-right brand-text"></i></a>
+            </div>
+          </div>
+        </div>
+      </div> <!-- ./container end -->
+    </section>
+    <!-- #testimonial Section end -->
+
+    <!-- Contact Section end -->
+    <section id="contact" class="scroll-section root-sec brand-bg padd-tb-120 contact-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="contact-inner">
+            <div class="col-sm-12 card-box-wrap">
+              <div class="row">
+                <div class="clearfix section-head contact-text">
+                  <div class="col-sm-12">
+                    <h2 class="title">Contact</h2>
+                    <ul class="clearfix contact-info">
+                      <li><a href="">19 Joseph St, Bristol, CT 06010</a>
+                      </li>
+                      <li><a href="">support@charlesanim.io</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div> <!-- contact text end -->
+
+                <div class="clearfix contact-form">
+
+                <!-- Map Start -->
+                  <div class="col-sm-7">
+                    <div class="map-wrapper">
+                      <div id="map"></div>
+                    </div>
+                  </div> <!-- Map end -->
+
+                <!-- Contact Form start -->
+                  <div class="col-sm-5">
+                    <div class="clearfix card-panel grey lighten-5 cform-wrapper">
+                      <form action="#" id="contactForm" novalidate>
+                        <div class="input-field">
+                          <input id="contact_name" type="text" name="contactName" class="validate input-box">
+                          <label for="contact_name" class="input-label">Name</label>
+                        </div>
+                        <div class="input-field">
+                          <input id="email" type="email" name="contactEmail" class="validate input-box">
+                          <label for="email" class="input-label">Email</label>
+                        </div>
+                        <div class="input-field">
+                          <input id="subject" type="text" name="contactSubject" class="validate input-box">
+                          <label for="subject" class="input-label">Subject</label>
+                        </div>
+                        <div class="input-field textarea-input">
+                          <textarea id="textarea1" name="contactMessage" class="validate materialize-textarea" style="height: 22px;"></textarea>
+                          <label for="textarea1" class="input-label">Message</label>
+                        </div>
+                        <div class="input-field submit-wrap clearfix">
+                          <button type="submit" class="left waves-effect btn-flat brand-text submit-btn">send message</button>
+                          <div class="right form-loader-area">
+                            <svg class="circular size-20" height="20" width="20">
+                              <circle class="path" cx="10" cy="10" r="7" fill="none" stroke-width="3" stroke-miterlimit="10" />
+                            </svg>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div> <!-- ./contact form end -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- ./container end -->
+      <div class="section-call-to-area">
+        <div class="container">
+          <div class="row">
+            <a href="#home" class="btn-floating btn-large button-middle call-to-home section-call-to-btn animated btn-up btn-hidden" data-section="#home">
+              <i class="mdi-navigation-expand-less"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #contact Section end -->
+
+    <!-- Footer Section end -->
+    <footer id="footer" class="root-sec white root-sec footer-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="clearfix footer-inner">
+              <ul class="left social-icons">
+                <li><a href="https://facebook.com/napster499" class="tooltips tooltipped facebook" data-position="top" data-delay="50" data-tooltip="Facebook"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li><a href="https://linkedin.com/in/charlesanim" class="tooltips tooltipped linkedin" data-position="top" data-delay="50" data-tooltip="Linkedin"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li><a href="https://github.com/charlesanim" class="tooltips tooltipped github" data-position="top" data-delay="50" data-tooltip="Github"><i class="fa fa-github"></i></a>
+                </li>
+              </ul> <!-- ./social icons end -->
+              <div class="right copyright">
+                <p>Charles Anim &copy; 2017 | All Rights Reserved |</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- ./container end-->
+    </footer>
+    <!-- #footer end -->
+
+  </main>
+  <!-- Main Container end-->
+
+
+  <!-- JavaScripts -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="assets/js/jquery.easing.1.3.js"></script>
+  <script src="assets/js/detectmobilebrowser.js"></script>
+  <script src="assets/js/isotope.pkgd.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/waypoints.js"></script>
+  <script src="assets/js/jquery.counterup.min.js"></script>
+  <script src="assets/js/jquery.nicescroll.min.js"></script>
+  <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
+  <script src="assets/js/gmaps.js"></script>
+  <script src="assets/libs/owl-carousel/owl.carousel.min.js"></script>
+  <script src="assets/libs/materialize/js/materialize.min.js"></script>
+  <script src="assets/libs/jwplayer/jwplayer.js"></script>
+  <script src="assets/libs/sweetalert/sweet-alert.min.js"></script>
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
