@@ -1,4 +1,4 @@
-# Personal Portfolio Website CharlesAnim.io
+# Personal Portfolio Website
 
 # [SEE IT LIVE v1.0](https://charlesanim.github.io/)
 
