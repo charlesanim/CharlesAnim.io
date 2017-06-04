@@ -1,6 +1,6 @@
 # Personal Portfolio Website CharlesAnim.io
 
-# [LIVE v1.0](https://charlesanim.github.io/)
+# [SEE IT LIVE v1.0](https://charlesanim.github.io/)
 
 ## Features
 - Personal portfolio website built using Javascript, Google’s Material Design & Bootstrap libraries.
