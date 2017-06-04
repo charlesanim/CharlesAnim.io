@@ -4,4 +4,4 @@
 
 ### Website Launching Soon!!
 
-# [DEMO HERE!](https://charlesanim.github.io/CharlesAnim.io/)
+# [DEMO HERE!](https://charlesanim.github.io/)
