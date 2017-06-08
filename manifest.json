@@ -3,7 +3,7 @@
   "short_name": "Charles Anim",
   "description": "A personal website to showcase my work",
   "lang": "en-US",
-  "start_url": "/?utm_source=homescreen",
+  "start_url": "/index.html",
   "display": "standalone",
   "theme_color": "#fe7448",
   "background_color": "#fe7448"
@@ -37,6 +37,6 @@
       "src": "images/favicon-6x.png"
       "sizes" "512x512",
       "type": "image/png"
-    },
+    }
   ]
 }
