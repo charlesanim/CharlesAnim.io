@@ -20,14 +20,14 @@
   <meta name="msapplication-navbutton-color" content="#fe7448">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="msapplication-starturl" content="/index.html">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5.0">
 
   <!-- Favicon-->
   <link rel="shortcut icon" href="images/favicon.png" >
 
 
   <!-- Manifest file-->
-  <link rel="manifest" href="manifest.json">
+  <link rel="manifest" href="/manifest.json">
 
 
   <!-- Stylesheets -->
@@ -997,7 +997,7 @@
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
   <script src="assets/js/common.js"></script>
   <script src="assets/js/main.js"></script>
-  <!-- <script>
+  <script>
     // Register the service worker
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('./service-worker.js').then(function(registration) {
@@ -1008,8 +1008,8 @@
           console.log('ServiceWorker registration failed: ', err);
         });
     }
-  </script> -->
-  <script src="/upup.min.js" async></script>
+  </script>
+  <script src="/upup.min.js"></script>
   <script>
     UpUp.start({
       'content-url': 'index.html',
